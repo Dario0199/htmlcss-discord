@@ -42,6 +42,8 @@ i{
     margin: 0 auto;
 }
 
+/* header nav */
+
 header{
     height: 50px;
     background: #255ee9;
@@ -103,13 +105,18 @@ nav ul li button{
 }
 .debug-box .description-h{
     position: absolute;
-    width: 40%;
+    width: 50%;
     text-align: center;
     padding: 0 30px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     
+}
+
+/* text header */
+.description-h{
+    color: white;
 }
 
 .description-h h1{
@@ -122,14 +129,28 @@ nav ul li button{
     display: inline-block;
 }
 
-.description-h h5{
+.description-h p{
     margin-bottom: 30px;
 }
 
+/* button header */
+
 .description-h ul li button{
     margin-right: 10px;
-    width: 150px;
     height: 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.download{
+    width: 150px;
+    background: white;
+}
+
+.open{
+    width: 200px;
+    color: white;
+    background: black;
 }
 
 
