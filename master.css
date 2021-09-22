@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* utility */
+.container{
+    width: 80%;
+}
+
+.pad-o{
+    
+}
+
+.debug-box img{
+    width: 100%;
+    height: auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* jumbo section */
+.jumbo{
+    width: 100vw;
+    background-color: #255ee9;
+}
+
+.container{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+header{
+    height: 50px;
+    background: yellow;
+    
+}
+
+.logo{
+    float: left;
+    width: 30%;
+    height: 50px;
+}
+
+.logo img{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+nav{
+    float: left;
+    height: 40px;
+    width: 70%;
+    position: relative;
+}
+
+nav ul{
+    display: inline-block;
+    text-transform: none;
+    margin-left: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+}
+
+nav ul li button{
+    position: absolute;
+    right: 5px;
+    top: 35%;
+}
+
+button .accedi{
+    border: none;
+    width: 30px;
+    height: 20px;
+    background: white;
+}
