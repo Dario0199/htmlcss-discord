@@ -6,10 +6,6 @@
 }
 
 /* utility */
-.container{
-    width: 80%;
-}
-
 .debug-box {
     display: inline-block;
     width: 100%;
@@ -18,6 +14,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    border-bottom: none;
 }
 
 .clearfix::after{
@@ -33,7 +30,7 @@ i{
 /* jumbo section */
 .jumbo{
     width: 100vw;
-    background-color: #255ee9;
+    background: #255ee9;
 }
 
 .container{
@@ -71,7 +68,7 @@ nav{
 nav ul{
     display: inline-block;
     text-transform: none;
-    margin-left: 0;
+    margin-left: 30px;
 }
 
 nav ul li{
@@ -97,9 +94,14 @@ nav ul li button{
     top: 35%;
     border: none;
     background: white;
-    border-radius: 10px;
+    border-radius: 15px;
+    
 }
 
+.accedi{
+    width: 50px;
+    height: 30px
+}
 .debug-box{
     position: relative;
 }
@@ -153,9 +155,62 @@ nav ul li button{
     background: black;
 }
 
+/* relation section */
 
+.relation{
+    width: 100vw;
+    background: #eeeeee;
+    
+}
 
+.relation .container{
+    width: 70%;
+}
+
+main{
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.img .sidebar{
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;   
+}
+
+.img{
+    width: 70%;
+    float: left;
     
+}
+
+.sidebar{
+    position: relative;
+    width: 30%;
+    float: left;
+}
     
-    
+.img img{
+    margin-left: 0;
+    margin-top: 70px;
+    margin-right: 0;
+    right: 0%;
+} 
+
+.txt-r{
+    margin-top: 105px;
+    width: 250px;
+    right: 0;
+}
+
+.txt-r h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.txt-r p{
+    font-family: sans-serif;
+}
+
 
