@@ -44,7 +44,7 @@ i{
 header{
     height: 50px;
     background: #255ee9;
-    
+
 }
 
 .logo{
@@ -62,7 +62,7 @@ nav{
     float: left;
     height: 40px;
     width: 70%;
-    
+
 }
 
 nav ul{
@@ -75,8 +75,8 @@ nav ul li{
     display: inline-block;
     line-height: 50px;
     margin-right: 20px;
-    
-    
+
+
 }
 
 nav ul li a{
@@ -95,7 +95,7 @@ nav ul li button{
     border: none;
     background: white;
     border-radius: 15px;
-    
+
 }
 
 .accedi{
@@ -113,8 +113,9 @@ nav ul li button{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
+
 
 /* text header */
 .description-h{
@@ -134,6 +135,7 @@ nav ul li button{
 .description-h p{
     margin-bottom: 30px;
 }
+
 
 /* button header */
 
@@ -155,6 +157,7 @@ nav ul li button{
     background: black;
 }
 
+
 /* relation section */
 
 .relation{
@@ -171,16 +174,19 @@ main{
     padding-bottom: 70px;
 }
 
+
+/* section1 */
+
 .img .sidebar{
     margin: 0 auto;
     display: inline-block;
-    position: absolute;   
+    position: absolute;
 }
 
 .img{
     width: 70%;
     float: left;
-    
+
 }
 
 .sidebar{
@@ -188,14 +194,14 @@ main{
     width: 30%;
     float: left;
 }
-    
+
 .img img{
     width: 600x;
     margin-left: 0;
     margin-top: 70px;
     margin-right: 0;
     right: 0%;
-} 
+}
 
 .txt-r{
     margin-top: 105px;
@@ -212,6 +218,9 @@ main{
     font-family: sans-serif;
     font-size: 14px;
 }
+
+
+/* section2 */
 
 .box2{
     background: rgb(241, 239, 239);
@@ -235,3 +244,13 @@ main{
 .sidebar2 .txt-r .h1{
     margin-top: 20px;
 }
+
+
+/* section3 */
+.box3{
+    margin-top: 20px;
+}
+
+
+/* section4 */
+
