@@ -254,3 +254,39 @@ main{
 
 /* section4 */
 
+.box4{
+    background: #f1efef; 
+    display: inline-block;  
+}
+
+.txt-box4 h1{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.txt-box4{
+ padding-top: 30px;
+ text-align: center; 
+ width: 80%; 
+ margin: 0 auto;
+}
+
+.img4 img{
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.star-img{
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+
+.star-img h3{
+    font-size: 25px;
+    text-align: center;
+}
